@@ -1,0 +1,203 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">C++ Course</a>
+
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="manual.html">Manual</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Developers
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Bill Xristodoulou</a>
+                    </div>
+                </li>
+            </ul>
+    </nav>
+
+    <div id="main" style="margin-top: 20px;">
+        <div class="container">
+            <div class="message"></div>
+            <h1>C++ Course MOOC</h1>
+            <p style="font-size: 28px;">In this course you will learn the basics of c++ programming by watching top notch coding 
+                lectures with hands on exercises in a "code as you see fashion" and answering simple 
+                but spot on finger exercises.
+            </p>
+            <form action="grade.php" method="get">
+            <div class="accordion" id="faq">
+                <div class="card">
+                    <div class="card-header" id="faqhead1">
+                        <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#faq1"
+                            aria-expanded="true" aria-controls="faq1"><div style="vertical-align: middle;" class="spinner-grow text-dark"></div> Intro to C++</a>
+                    </div>
+
+                    <div id="faq1" class="collapse show" aria-labelledby="faqhead1" data-parent="#faq">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>C++ Programming Lecture 1</h3>
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/tvC1WCdV1XU"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>What's the name of the program you need to run C++?</h3>
+                                    <input type="radio" name="answer1" value="1" class="ans1" checked>&nbsp;Visual Studio Code<br>
+                                    <input type="radio" name="answer1" value="2" class="ans1">&nbsp;DevC++<br>
+                                    <input type="radio" name="answer1" value="3" class="ans1">&nbsp;Codeblocks<br>
+                                    <!--<input type="radio" name="answer1" value="4" class="ans1">&nbsp;Visual Studio Code--->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="faqhead2">
+                        <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq2"
+                            aria-expanded="true" aria-controls="faq2"><div style="vertical-align: middle;" class="spinner-grow text-dark"></div> Your first program</a>
+                    </div>
+
+                    <div id="faq2" class="collapse" aria-labelledby="faqhead2" data-parent="#faq">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>C++ Programming Lecture 2</h3>
+                                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/SWZfFNyUsxc"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>What function you should put into your program in order to run the code?</h3>
+                                    <input type="radio" name="answer2" value="1" class="ans2" checked>&nbsp;Copy function<br>
+                                    <input type="radio" name="answer2" value="2" class="ans2">&nbsp;Main function<br>
+                                    <input type="radio" name="answer2" value="3" class="ans2">&nbsp;Strlen function<br>
+                                    <input type="radio" name="answer2" value="4" class="ans2">&nbsp;Print function<br>
+                                    <input type="radio" name="answer2" value="5" class="ans2">&nbsp;Struct function<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="faqhead3">
+                        <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq3"
+                            aria-expanded="true" aria-controls="faq3"><div style="vertical-align: middle;" class="spinner-grow text-dark"></div> Using I/O Functions</a>
+                    </div>
+
+                    <div id="faq3" class="collapse" aria-labelledby="faqhead3" data-parent="#faq">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>C++ Programming Lecture 3</h3>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sPv0HQ8xOaU"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>What is the function you use to print stuff to the console?</h3>
+                                    <input type="radio" name="answer3" value="1" class="ans3" checked>&nbsp;print()<br>
+                                    <input type="radio" name="answer3" value="2" class="ans3" >&nbsp;ptr()<br>
+                                    <input type="radio" name="answer3" value="3" class="ans3" >&nbsp;view_con()<br>
+                                    <input type="radio" name="answer3" value="4" class="ans3" >&nbsp;printf()<br>
+                                    <input type="radio" name="answer3" value="5" class="ans3" >&nbsp;scanf()<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="faqhead4">
+                        <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq4"
+                            aria-expanded="true" aria-controls="faq4"><div style="vertical-align: middle;" class="spinner-grow text-dark"></div> Variables / Basics</a>
+                    </div>
+
+                    <div id="faq4" class="collapse" aria-labelledby="faqhead4" data-parent="#faq">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>C++ Programming Lecture 4</h3>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QwBSv4-_Lmk"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>What's the right way to define a variable?</h3>
+                                    <input type="radio" name="answer4"  value="1" class="ans4"  checked>&nbsp;int name;<br>
+                                    <input type="radio" name="answer4"  value="2" class="ans4" >&nbsp;var name = "Loggos"<br>
+                                    <input type="radio" name="answer4"  value="3" class="ans4" >&nbsp;def name : "Loggos"<br>
+                                    <input type="radio" name="answer4"  value="4" class="ans4" >&nbsp;string name : "Loggos"<br>
+                                    <input type="radio" name="answer4"  value="5" class="ans4" >&nbsp;None of the above<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header" id="faqhead3">
+                        <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq5"
+                            aria-expanded="true" aria-controls="faq5"><div style="vertical-align: middle;" class="spinner-grow text-dark"></div> Create A Calculator</a>
+                    </div>
+
+                    <div id="faq5" class="collapse" aria-labelledby="faqhead5" data-parent="#faq">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>C++ Programming Lecture 5</h3>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yjucJUsHSqg"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>What kind of structure you should code in order to make a functional calculator?</h3>
+                                    <input type="radio" name="answer5"  value="1" class="ans5" checked>&nbsp;If statements<br>
+                                    <input type="radio" name="answer5"  value="2" class="ans5">&nbsp;Looping<br>
+                                    <input type="radio" name="answer5"  value="3" class="ans5">&nbsp;Variable definitions<br>
+                                    <input type="radio" name="answer5"  value="4" class="ans5">&nbsp;Operators<br>
+                                    <input type="radio" name="answer5"  value="5" class="ans5">&nbsp;All of the above<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="submit" class="btn btn-secondary" id="submitQuiz" value="Submit Quiz">&nbsp;<label class="badge badge-dark" style="padding: 5px;">Make sure you answered all finger exercises for maximum grade.</label>
+                <p><b>*If your answers are wrong, you wil be redirected to this page again.</b></p>
+            </div>
+            </form>
+        </div>
+        
+        <div class="text-center">
+        <a style="text-decoration: none; color: purple;" href="#">Copyright 2021 - Bill Xristodoulou</a>
+        </div>
+    </div>
+</body>
+
+</html>
