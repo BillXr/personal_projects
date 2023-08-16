@@ -1,12 +1,13 @@
-# uni_projects
+# personal_projects
 
-Some of the projects and apps i developed during my 5-year old studies in University of West Attica,
-where i get a MSEng in Informatics and Computer Engineering.
+Some simple projects and apps i developed in my spare time.
 
-Projects field
-+ Web Developemnt
-+ Artificial Intelligence
-+ Databases
+## Projects field
++ Web Developemnt (Java,JavaScript,C,C++,Python,Html,Css,NodeJs,Php)
++ Big data (Hadoop,Spark)
++ Artificial Intelligence (Python,Clips)
++ Databases (MySQL,NoSQL)
++ Cyber Security
 + Network Programming
 + Data Structures
-+ Operating Systems
++ Operating Systems (Linux,bash)
